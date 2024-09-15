@@ -155,10 +155,14 @@ https://cb3f-2405-201-f010-bf-d568-9297-f55f-3feb.ngrok-free.app/hubspot/webhook
 3. Subscribe to HubSpot Contact Events
 In the same Webhook settings page of your HubSpot app, subscribe to the following events for the Contact object:
 
- - contact.creation – Triggered when a new contact is created.
- - contact.deletion – Triggered when a contact is deleted.
- - contact.propertyChange(email, firstname, lastname) – Triggered when any of the contact properties like email, first name, or last name change.
+ - `contact.creation` – Triggered when a new contact is created.
+ - `contact.deletion` – Triggered when a contact is deleted.
+ - `contact.propertyChange` (email, firstname, lastname) – Triggered when any of the contact properties like email, first name, or last name change.
 4. Sync Contact Events with CRM App
 After setting up webhooks, your CRM app will now be able to receive real-time updates from HubSpot regarding contacts, enabling you to sync the creation, deletion, and updates of contacts directly in your CRM.
 
 Following these steps, you will have a fully functioning CRM application integrated with HubSpot, including the ability to handle contact synchronization using webhooks.
+
+## Demo
+
+[Demo Video](https://youtu.be/JUKfpR86bjg)
